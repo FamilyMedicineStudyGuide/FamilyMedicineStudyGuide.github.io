@@ -1,6 +1,5 @@
 ---
 title: "Dr. Daniel Léger wins the Nobel Prize in Medicine!"
-date: 2015-04-01
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia venenatis quam, eu egestas purus convallis vel. Maecenas non ex ullamcorper, lacinia nunc eu, convallis elit. 
