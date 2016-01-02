@@ -1,6 +1,5 @@
 ---
 title: "This is an example of an update"
-date: 2016-01-02
 ---
 
 Updates, such as new releases of the application, or charitable causes that will be donated to, can be put here.
