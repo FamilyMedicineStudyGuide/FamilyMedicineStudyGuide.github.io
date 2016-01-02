@@ -1,0 +1,29 @@
+<script src="js/urls.js"></script>
+<script>
+	var q;
+	function changeRandomQuestion(){
+	    var q_field = document.getElementById("sample-question");
+	    q = questions[Math.floor (Math.random() * questions.length)];
+	    q_field.innerHTML = q.question;
+
+	    //Reset answer
+	    var a_field = document.getElementById("sample-answer");
+	    a_field.innerHTML = "";
+	}
+	function showAnswer(){
+	    var a_field = document.getElementById("sample-answer");
+	    a_field.innerHTML = q.answer;
+	}
+
+	$( document ).ready( function() {
+		$( "#refresh" ).on( "click", function( e ) {
+	        var $icon = $( this ).find( ".refresh-icon" );
+	            animateClass = "refresh-icon-animate";
+
+	        $icon.addClass( animateClass );
+	        window.setTimeout( function() {
+	        	$icon.removeClass( animateClass );
+	        }, 800 );
+	    });    
+	});
+</script>

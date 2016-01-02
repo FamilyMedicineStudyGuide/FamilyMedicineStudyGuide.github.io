@@ -1,0 +1,118 @@
+@font-face {
+	font-family: "Adelle Basic";
+	src: url("../fonts/AdelleBasic_Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: "Adelle Basic";
+	font-weight: bold;
+	src: url("../fonts/AdelleBasic_Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: "Adelle Sans";
+	src: url("../fonts/AdelleSans-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: "Adelle Sans";
+	font-weight: bold;
+	src: url("../fonts/AdelleSans-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: "Adelle Sans";
+	font-style: italic;
+	src: url("../fonts/AdelleSans-Italic.otf") format("opentype");
+}
+
+$header-font-stack: "Adelle Basic", Georgia, serif;
+$sans-serif-font-stack: "Adelle Sans", Helvetica, Arial, sans-serif;
+$serif-font-stack: "Adelle Basic", Georgia, serif;
+
+$dark: #3D2863;
+$darker: #110C21;
+$neutral: #574782;
+$bright: #E0D3FF;//C4C1F2;
+$brighter: #F0E5FF;//E0D3FF;
+$brightest: #FFFFFF;//F0E5FF;
+
+$padding: 120px;
+$padding-large-tablet: 50px;
+$padding-tablet: 50px;
+$padding-mobile-landscape: 40px;
+$padding-mobile-portrait: 25px;
+$content-width: 700px;
+$column-width: 365px;
+$mobile-header-font-size: 26px;
+
+/* #Utility Classes
+––––––––––––––––––––––––––––––––––––––––*/
+.button {
+	padding-top:10px;
+	padding-bottom:10px;
+	a{
+		border:2px solid $bright;
+		border-radius:4px;
+		padding: 8px 10px 4px 10px;
+		font-family:$sans-serif-font-stack;
+		font-size:18px;
+		box-shadow:0px 0px 10px rgba(0,0,0,0.0);
+	}
+	a:hover{
+		border:2px solid $bright;
+		color:$neutral;
+		box-shadow:0px 2px 10px rgba(0,0,0,0.05);
+	}
+}
+.flex {
+	display:flex;
+	flex-wrap:wrap;
+}
+.left-column {
+	width:60%;
+	p, h1, h2, h3, h4, h5, h6 {padding-right:50px;}
+}
+.right-column {
+	width:40%;
+}
+
+/* #Inherited Classes
+––––––––––––––––––––––––––––––––––––––––*/
+
+.content{
+	padding-left:$padding;
+	padding-right:$padding;
+}
+@media only screen and (max-width: 1199px){
+	.content{
+		padding-left:$padding-large-tablet;
+		padding-right:$padding-large-tablet;
+	}
+}
+@media only screen and (min-width:768px) and (max-width: 959px) {
+	.content{
+		padding-left:$padding-tablet;
+		padding-right:$padding-tablet;
+	}
+	.left-column {width:70%}
+	.right-column {width:30%}
+}
+@media only screen and (max-width: 767px) {
+	.left-column, .right-column {
+		width:100%;
+		max-width:500px;
+	}
+	.left-column {
+		p, h1, h2, h3, h4, h5, h6 {padding-right:0px;}
+	}
+	.button a {font-size:16px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.content {
+		padding-left:$padding-mobile-landscape;
+		padding-right:$padding-mobile-landscape;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.content {
+		padding-left:$padding-mobile-portrait;
+		padding-right:$padding-mobile-portrait;
+	}
+}

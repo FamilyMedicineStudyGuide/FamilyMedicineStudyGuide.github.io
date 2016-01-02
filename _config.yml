@@ -1,0 +1,8 @@
+root: "http://familymedicinestudyguide.github.io"
+
+#Number of pages in each archive page.
+paginate: 4
+paginate_path: "updates/:num/"
+
+rdiscount:
+  extensions: [smart]

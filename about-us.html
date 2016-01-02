@@ -1,0 +1,81 @@
+---
+---
+
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+{% include head.html %}
+
+<body>
+	<div id="header" class="content">
+		{% include nav.html %}
+	</div>
+	<script type="text/javascript">
+		document.querySelector( "#about-us" ).classList.toggle("active");
+	</script>
+
+	<div id="about" class="content flex">
+		<div id="about-description" class="left-column">
+			<h1 style="margin-bottom:5px;">What makes us tick?</h1>
+			<p>Our philosophy is a simple one: <i>effective teaching must involve active and experiential learning.</i> Engaging students with "outside of the box" teaching methods encourages creativity, fuels passion, and complements traditional didactic teaching methods. Thus, our goal is to enhance the user's knowledge of Family Medicine topics in a compelling way.</p>
+			<p>We believe that family physicians and allied health professionals strengthen our local communities and can have an impact on those internationally as well. We also have a responsibility to assist those less fortunate and in need. Therefore, the Family Medicine Study Guide was created as a <b>non-profit project</b>. 100% of the authors' revenue will be used to ensure the sustainability of the app and be donated to various charities around the world.</p> 
+			<p>Thank you for your support in this endeavour, and best of luck with your studies and continued growth in the field of Family Medicine.</p>
+		</div>
+		<div class="right-column">
+			<div id="attributions">
+				<h1 class="animate">Who are we?</h1>
+				<div id="attributions-columns" class="flex">
+					<div class="attribution-column animate">
+						<h3>Founder <span style="opacity:0.5">:</span></h3>
+						<p>
+							<b>Dr Daniel Léger, CCFP, MD, BSc</b><br>
+							Assistant Professor of Family Medicine<br>
+							Academic Program Director<br>
+							<a href="http://www.schulich.uwo.ca/">Schulich School of Medicine &amp; Dentistry</a><br>
+							<a href="http://www.uwo.ca">Western University</a>
+						</p>
+					</div>
+					<div class="attribution-column animate">
+						<h3>Peer reviewers <span style="opacity:0.5">:</span></h3>
+						<ul>
+							<li>Dr Clarissa Burke</li>
+							<li>Dr Jay Taylor</li>
+							<li>Dr Christina Cookson</li>
+							<li>Dr Elena Bykova</li>
+							<li>Dr Janet Zhao</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="special-thanks" class="content flex">
+		<div id="thanks-pics" class="left-column flex animate">
+			<img src="images/snowedin.svg">
+			<img src="images/schulich.svg">
+			<img src="images/kl.svg">
+		</div>
+		<div class="right-column">
+			<h3 class="animate">Special thanks <span style="opacity:0.5">:</span></h3>
+			<div class="thanks animate">
+				<b>Snowed In Studios</b><br>
+				Application Development<br>
+				<a href="http://snowedin.ca">http://snowedin.ca</a>
+			</div>
+			<div class="thanks animate">
+				<b>Department of Family Medicine</b><br>
+				Schulich School of Medicine &amp; Dentistry<br>
+				Western University<br>
+			</div>
+			<div class="thanks animate">
+				<b>Kevan Lu</b><br>
+				Website Development<br>
+				<a href="http://kevan.lu">http://kevan.lu</a>
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+</body>
+</html>

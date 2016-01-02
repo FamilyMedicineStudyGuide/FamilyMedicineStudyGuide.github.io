@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<head>
+	<!--Metadata-->
+	<meta charset="utf-8">
+	<title>Family Medicine Study Guide</title>
+	<meta name="description" content="Family Medicine Study Guide">
+	<meta name="keywords" content="Family, Medicine, Residents, Medical School, Doctors, Learning">
+	<meta name="author" content="Kevan Lu">
+	<meta name="robots" content="noindex,nofollow"/>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//images/favicon.ico" type="image/x-icon">
+
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//stylesheets/layout.css">
+	<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//stylesheets/grid.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<script src="js/urls.js"></script>
+<script>
+	var q;
+	function changeRandomQuestion(){
+	    var q_field = document.getElementById("sample-question");
+	    q = questions[Math.floor (Math.random() * questions.length)];
+	    q_field.innerHTML = q.question;
+
+	    //Reset answer
+	    var a_field = document.getElementById("sample-answer");
+	    a_field.innerHTML = "";
+	}
+	function showAnswer(){
+	    var a_field = document.getElementById("sample-answer");
+	    a_field.innerHTML = q.answer;
+	}
+
+	$( document ).ready( function() {
+		$( "#refresh" ).on( "click", function( e ) {
+	        var $icon = $( this ).find( ".refresh-icon" );
+	            animateClass = "refresh-icon-animate";
+
+	        $icon.addClass( animateClass );
+	        window.setTimeout( function() {
+	        	$icon.removeClass( animateClass );
+	        }, 800 );
+	    });    
+	});
+</script>
+
+
+<body>
+	<div id="header" class="content">
+		<div id="nav" class="flex">
+	<div id="logo">
+		<a href="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//index.html">
+			<img src="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//images/fmstudyguide.svg">
+			<span id="logo-text" style="float:right">Family Medicine<br>Study Guide</span>
+		</a>
+	</div>
+	<div id="spacer"></div>
+	<div id="about-us" class="link"><a href="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//about-us.html">About Us</a></div>
+	<div id="updates" class="link"><a href="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//updates/index.html">updates</a></div>
+</div>
+		<div class="flex">
+			<div class="left-column">
+				<div id="title">A 'study buddy' for the family medicine resident</div>
+				<div id="description">
+					Written by physicians, the Family Medicine Study Guide includes 50 clinical vignettes that cover common problems in Family Medicine. 
+				</div>
+				<div id="download-links">
+					<a id="apple" href=""><img src="images/apple.svg"></a>
+					<a id="google" href=""><img src="images/google.png"></a>
+				</div>
+			</div>
+			<div class="right-column" style="position:relative">
+				<img id="header-pic" src="images/hero.png">
+			</div>
+		</div>
+	</div>
+	<div id="feature-header" class="content">
+		<h1>What makes this app special?</h1>
+	</div>
+	<div class="content flex feature">
+		<div class="left-column animate">
+			<h3 class="feature-title">Learn through application</h3>
+			<p>Rather than reading about a problem, with the Family Medicine Study Guide, you <b>learn by doing</b>. Each case tests you on key points on diagnosing and managing common conditions.</i></p> 
+		</div>
+		<div class="right-column animate">
+			<img class="feature-pic" src="images/features/feature1.svg">
+		</div>
+	</div>
+	<div class="content flex feature">
+		<div class="left-column animate">
+			<h3 class="feature-title">'Clinical pearls' emphasize key learning points</h3>
+			<p>Each case includes a few <b>Clinical Pearls</b> that help commit key information to memory. Spend less time on minutiae, and more time focusing on the high-yield stuff.</p> 
+		</div>
+		<div class="right-column animate">
+			<img class="feature-pic" src="images/features/feature2.svg">
+		</div>
+	</div>
+	<div class="content flex feature" style="padding-bottom:50px">
+		<div class="left-column animate">
+			<h3 class="feature-title">Test your knowledge with 'rapid fire' questions</h3>
+			<p>Short on time? Rapid-fire questions quiz you on random topics in Family Medicine. They're a great way to improve spontaneous recall.</p> 
+		</div>
+		<div class="right-column animate">
+			<img class="feature-pic" src="images/features/feature3.svg">
+		</div>
+	</div>
+	<div id="samples-header" class="content flex">
+		<div class="left-column animate">
+			<h1>
+				Try a sample question
+				<a href="" onclick="event.preventDefault(); changeRandomQuestion();" id="refresh"><img class="refresh-icon" src="images/refresh-icon.svg"></a>
+			</h1>
+		</div>
+		<div class="right-column animate">
+			<div class="button"><a href="" onclick="event.preventDefault(); showAnswer();">Show the answer</a></div>
+		</div>
+	</div>
+	<div id="samples-body" class="content flex">
+		<div class="left-column animate">
+			<p id="sample-question"></p>
+		</div>
+		<div class="right-column animate">
+			<p id="sample-answer"></p>
+		</div>
+	</div>
+	<script type="text/javascript">changeRandomQuestion();</script>
+	</div>
+	<div id="screenshots" class="content">
+		<h1 class="animate">Screenshots <span style="opacity:0.5">:</span></h1>
+		<div id="grid" class="flex animate">
+			<div class="grid-img"><a href="images/screenshots/1.png"><img src="images/screenshots/1.png"></a></div>
+			<div class="grid-img"><a href="images/screenshots/2.png"><img src="images/screenshots/2.png"></a></div>
+			<div class="grid-img"><a href="images/screenshots/3.png"><img src="images/screenshots/3.png"></a></div>
+			<div class="grid-img"><a href="images/screenshots/4.png"><img src="images/screenshots/4.png"></a></div>
+			<div class="grid-img"><a href="images/screenshots/5.png"><img src="images/screenshots/5.png"></a></div>
+			<div class="grid-img"><a href="images/screenshots/6.png"><img src="images/screenshots/6.png"></a></div>
+		</div>
+	</div>
+
+	<div id="footer" class="content flex">
+	<h4 id="contact-us" class="animate">Contact us <span style="opacity:0.3">:</span></h4>
+	<div id="author-footer" class="animate">
+		<b>Dr Daniel Léger, CCFP, MD, BSc</b><br>
+		Assistant Professor of Family Medicine<br>
+		<a href="http://www.schulich.uwo.ca/">Schulich School of Medicine &amp; Dentistry</a><br>
+		<a href="http://www.uwo.ca">Western University</a>
+	</div>
+	<div id="contacts" class="animate">
+		<div id="email" class="icon"><i class="fa fa-envelope-o mail"></i></div><a href="mailto:fmstudyguide@gmail.com">fmstudyguide@gmail.com</a><br>
+		<div id="facebook" class="icon"><i class="fa fa-facebook"></i></div><a href="https://www.facebook.com/groups/1507924616188858/">Facebook</a><br>
+		<div id="twitter" class="icon"><i class="fa fa-twitter"></i></div><a href="https://twitter.com/fm_studyguide">Twitter</a>
+	</div>
+</div>
+
+<script src="https://dl.dropboxusercontent.com/u/157117/fmstudyguide/_site//js/scrollreveal.min.js"></script>
+<script type="text/javascript">
+	window.sr = ScrollReveal();
+	sr.reveal('.animate', { duration: 500, distance: '10px', scale: 1 } );
+</script>
+	<script src="js/grid.js"></script>
+	<script type="text/javascript">
+		grid.run('#grid', {buttons:false, animation:false});
+	</script>
+</body>
+</html>
