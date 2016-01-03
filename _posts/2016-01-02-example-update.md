@@ -12,17 +12,7 @@ The Family Medicine Study Guide features:
 * 234 Short Answer Questions with answer keys
 * 50 Rapid Fire Questions
 * Clinical Pearls
-
-  * to assist in remembering key clinical concepts
-* Clinical Notepad
-
-  * to help bundle and save your acquired knowledge
+* Clinical NotePad
 * 99 Family Medicine Topics Checklist
-
-  * to help track your studying progress
-* Ability to flag topics or questions that require further study&nbsp;
-* Links to:
-
-  * key educational resources and websites
-  * relevant medical journals
+* Links to key educational resources and websites
 * Links to all Major Canadian Practice Guidelines
