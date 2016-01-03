@@ -1,7 +1,5 @@
 ---
-published: true
 title: Dr. Daniel Léger wins the Nobel Prize in Medicine!
-layout: post
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia venenatis quam, eu egestas purus convallis vel. Maecenas non ex ullamcorper, lacinia nunc eu, convallis elit. 
 
