@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Dr. Daniel Léger wins the Nobel Prize in Medicine!
 layout: post
 ---
