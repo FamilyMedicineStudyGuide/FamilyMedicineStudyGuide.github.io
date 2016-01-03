@@ -1,5 +1,6 @@
 ---
 title: 'The Family Medicine Study Guide has been released!'
+date: 2016-01-03
 ---
 
 It's official… &nbsp;We are live…
