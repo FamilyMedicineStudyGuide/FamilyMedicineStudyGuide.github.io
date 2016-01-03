@@ -2,15 +2,18 @@
 title: 'The Family Medicine Study Guide has been released!'
 ---
 
-Updates, such as new releases of the application, or charitable causes that will be donated to, can be put here.
+It's official... &nbsp;We are live...
 
-The family medicine study guide features:
+Download the app today!
 
-* 50 Original SAMPs (short answer management problems)
-* 234 Short Answer Questions (w/ answer keys)
+The Family Medicine Study Guide features:
+
+* 50 Original Short Answer Management Problems
+* 234 Short Answer Questions with answer keys
 * 50 Rapid Fire Questions
-* Clinical Pearls
-* Links to Educational Resources
-* Clinical Notepad
-* "99 Topics" Checklist
-* Links to All Major Canadian Practice Guidelines
+* Clinical Pearls to assist in remembering key clinical concepts
+* Clinical Notepad to help tract and save your acquired knowledge and study tips
+* 99 Family Medicine Topics Checklist to help track your studying progress
+* Ability to flag topics or questions that require further study&nbsp;
+* Links to key educational resources, websites and medical journals
+* Links to all Major Canadian Practice Guidelines
