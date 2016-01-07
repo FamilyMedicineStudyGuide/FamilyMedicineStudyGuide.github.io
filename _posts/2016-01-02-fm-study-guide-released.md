@@ -1,9 +1,7 @@
 ---
-title: 'The Family Medicine Study Guide has been released!'
+title: 'The Family Medicine Study Guide soon to be released!'
 date: 2016-01-06T17:00:00.000Z
 ---
-
-&nbsp;
 
 The Family Medicine Study Guide features:
 
