@@ -1,11 +1,9 @@
 ---
 title: 'The Family Medicine Study Guide has been released!'
-date: 2016-01-03
+date: 2016-01-06T17:00:00.000Z
 ---
 
-It's official… &nbsp;We are live…
-
-Download the app today!
+&nbsp;
 
 The Family Medicine Study Guide features:
 
