@@ -1,9 +1,9 @@
 ---
-title: 'The Family Medicine Study Guide soon to be released!'
-date: 2016-01-06T17:00:00.000Z
+title: 'The Family Medicine Study Guide is released!'
+date: 2016-01-15T08:00:00.000Z
 ---
 
-Coming January 2016 !!
+Available Today !! &nbsp; (Apple and Android)
 
 The Family Medicine Study Guide features:
 
