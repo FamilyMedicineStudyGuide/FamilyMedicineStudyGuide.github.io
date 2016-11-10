@@ -1,6 +1,6 @@
 This just in...
 
-The American National Network of Libraries of Medicine just featured the Family Medicine Study Guide in their "Mobile App Experience Project".
+The **American National Network of Libraries of Medicine** just featured the Family Medicine Study Guide in their **"Mobile App Experience Project"**.
 
 They review it as an excellent resource for "the student, resident, and fellow when studying for yearly in-training exams and certification as well as for the clinician as review for their certification renewal."
 
