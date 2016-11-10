@@ -1,4 +1,4 @@
-This just in...
+**This just in...**
 
 The **American National Network of Libraries of Medicine** just featured the Family Medicine Study Guide in their **"Mobile App Experience Project"**.
 
