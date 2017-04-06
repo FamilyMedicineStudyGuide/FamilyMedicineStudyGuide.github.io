@@ -1,36 +1,12 @@
-
-#Enter Amount Donated to Charity Here
-amount_donated: 5000
-
-#Enter Number of Families Supported Here
+amount_donated: 1610
 number_families_supported: 5
-
-#Enter Number of of Months of Support Provided Here
-number_months_support: 36
-
-#Enter Number of Individuals Helped here:
-number_individuals_helped: 5
-
-#INFORMATION FOR NEW FEATURES ON HOME PAGE
-
-#MSK MEDICINE SECTION
-#--------------------
-#Set this to false to hide the MSK Medicine feature. Set it to true to show it.
+number_months_support: 84
+number_individuals_helped: 18
 show_msk_medicine: false
-#Set this to true to show the 'NEW FEATURE' label. Set this to false and it will disappear
 show_new_msk_medicine: true
-#This is the header title for the MSK Medicine section
-title_msk_medicine: "Title for new MSK Medicine Section"
-#This is the body text for the MSK Medicine section
-text_msk_medicine: "Placeholder text for description of new MSK Medicine section. Add a sentence or two here describing the feature. Make sure you update this before saving the site with this displayed."
-
-#MINI PODCASTS SECTION
-#---------------------
-#Set this to false to hide the Mini Podcasts feature. Set it to true to show it.
+title_msk_medicine: Title for new MSK Medicine Section
+text_msk_medicine: Placeholder text for description of new MSK Medicine section. Add a sentence or two here describing the feature. Make sure you update this before saving the site with this displayed.
 show_mini_podcasts: false
-#Set this to true to show the 'NEW FEATURE' label. Set this to false and it will disappear
 show_new_mini_podcasts: true
-#This is the header title for the Mini Podcasts section
-title_mini_podcasts: "Title for Mini Podcasts Section"
-#This is the body text for the Mini Podcasts section
-text_mini_podcasts: "Placeholder text for description of Mini Podcasts section. Add a sentence or two here describing the feature. Make sure you update this before saving the site with this displayed."
+title_mini_podcasts: Title for Mini Podcasts Section
+text_mini_podcasts: Placeholder text for description of Mini Podcasts section. Add a sentence or two here describing the feature. Make sure you update this before saving the site with this displayed.
