@@ -739,7 +739,7 @@ $twitter-handle-padding:8px;
 			margin-top:15px;
 			a {
 				font-size:13px;
-				padding:6px 9px 3px 9px;
+				padding:6px 6px 3px 6px;
 				opacity:0.4;
 			}
 		}
@@ -770,6 +770,22 @@ $twitter-handle-padding:8px;
 			padding-right:0px;
 		}
 		.left-column, .right-column {margin:0 auto;}
+	}
+	#twitter-feed {
+		max-width:100%;
+		padding-right:40px;
+	}
+	#twitter-handle {
+		padding-bottom:15px;
+	}
+	#safp img {
+		height:120px;
+		width:auto;
+		max-width:100%;
+	}
+	#elephant-thoughts img {
+		width:100%;
+		height:auto;
 	}
 	#title {
 		text-align:center;

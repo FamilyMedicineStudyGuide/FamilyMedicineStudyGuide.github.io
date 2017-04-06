@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"curriculum-vi",
+				"curriculum-vitae-link"
+			],
+			[
+				"da",
+				"dateSubmitted"
+			],
+			[
+				"at",
+				"meetingAttendance"
+			],
+			[
+				"tw",
+				"twitterHandle"
+			],
+			[
+				"refe",
+				"reference1"
+			],
+			[
+				"pers",
+				"personalStatement"
+			],
+			[
+				"personal",
+				"personal-statement"
+			],
+			[
+				"page",
+				"page-title"
+			],
+			[
+				"cma",
+				"cmaMembershipID"
+			],
+			[
+				"refere",
+				"reference-2"
+			],
+			[
+				"ref",
+				"reference1"
+			],
+			[
+				"let",
+				"letter-good-standing"
+			],
+			[
+				"cur",
+				"curriculum-vitae"
+			],
+			[
+				"reference",
+				"reference2"
+			],
+			[
+				"re",
+				"reference1"
+			],
+			[
+				"letter",
+				"letterGoodStanding"
+			],
+			[
+				"curricul",
+				"curriculumVitae"
+			],
+			[
+				"right",
+				"right-col"
+			],
+			[
+				"applia",
+				"application-buttons"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"con",
+				"content-width"
+			],
+			[
+				"prima",
+				"primary-color-bright"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/CFMS/New Passwords.md",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/_data/values.yml",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/_config.yml",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/giving-back.html",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/_data/data.yml",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/_includes/nav.html",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/stylesheets/layout.scss",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/_includes/footer.html",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Integration & Transition/Collins Barrow Financial Talk.md",
+		"/Users/kevanlu/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/cache/messagesData/1/9459/OPPORTUNITY.HTM",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Integration & Transition/Selective – Epidemiology/Selective – Epidemiology.md",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Clerkship/Notes/Internal Medicine.md",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Integration & Transition/I&T Orientation.md",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/index.html",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Integration & Transition/Selective – Epidemiology/Systematic Reviews.md",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Integration & Transition/Selective – Epidemiology.md",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/_posts/2017-01-14-More-Charity!.md",
+		"/Users/kevanlu/Dropbox/Public/FamilyMedicineStudyGuide.github.io/_posts/2017-02-25-Twitter-Tidbits.md",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Integration & Transition/Module – Pain/Pain Module.md",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Clerkship/Notes/Surgery.md",
+		"/Users/kevanlu/Dropbox/Kevan Lu/Documents/Integration & Transition/Communications.md",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/what-we-do/advocacy/position-papers.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/discounts-travel.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/discounts.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/index.html",
+		"/Users/kevanlu/Desktop/Interview Prep.md",
+		"/Users/kevanlu/Desktop/I&T.md",
+		"/Users/kevanlu/Desktop/Code/COMP 206- Introduction to Software Systems/Assignment 3 Work/Q1/passweb.c",
+		"/Users/kevanlu/Desktop/Code/COMP 206- Introduction to Software Systems/Assignment 2 Work/a2q2.c",
+		"/Users/kevanlu/Desktop/Code/COMP 206- Introduction to Software Systems/Assignment 2 Work/a2q1.c",
+		"/Users/kevanlu/Desktop/Code/FILTER.C",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/new-account.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-leadership-awards-application.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/members/index.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_includes/login.js",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/karma.conf.js",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_data/home.yml",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/couples-match-app/view/main.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_config.yml",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/couples-match-app/index.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/README.md",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/what-we-do/global-health/index.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_data/translations.yml",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_includes/sidebar-financial-resources.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_includes/sidebar-members.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/precompiled/resources.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_includes/footer.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-leadership-awards-view-applications.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_includes/nav.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/precompiled/base.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/precompiled/home.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/precompiled/sitemap.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-leadership-awards-applications.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-leadership-awards-instructions.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-leadership-awards-prev-winners.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_sass/_variables.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/_includes/head.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/precompiled/header.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-leadership-awards-closed.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-leadership-awards.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/annual-review.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md-travel-awards.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/student-finances.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/couples-match-app/view/match.css",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/couples-match-app/view/bootstrap/css/bootstrap.css",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/couples-match-app/app/match.service.promise.ts",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/couples-match-app/app/match.service.promise.js",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md_leadership_awards_prev_winners.html",
+		"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources/md_leadership_awards_application.html",
+		"/Users/kevanlu/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/kevanlu/Dropbox/Public/cfms/stylesheets/index.html",
+		"/Users/kevanlu/Dropbox/Public/cfms/stylesheets/font-awesome.css",
+		"/Users/kevanlu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kevanlu/Dropbox/Public/cfms/stylesheets/home.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms/stylesheets/news.scss",
+		"/Users/kevanlu/Dropbox/Public/cfms/stylesheets/sitemap.scss",
+		"/Users/kevanlu/Dropbox/Public/notes/08 – Digestive System & Nutrition/_posts/2014-09-24-luminal-gi-malignancies.md",
+		"/Users/kevanlu/Dropbox/Public/notes/08 – Digestive System & Nutrition/_posts/2014-09-18-diseases-gallbladder-extra-hepatic-bile-ducts.md"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/kevanlu/Dropbox/Public/cfms-website.github.io/resources"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}}",
+			"{{",
+			"MSK Medicine",
+			"site.data",
+			"-",
+			"{{ ",
+			"opacity",
+			"_money",
+			"data-point",
+			"#aut",
+			"#contact",
+			"footer",
+			" ",
+			"intus",
+			". ",
+			"tension",
+			"00063566",
+			"h4",
+			"<h4>",
+			"5",
+			"h3",
+			"ul",
+			"u",
+			"®",
+			"h2",
+			"▸",
+			"pic-ri",
+			"h4",
+			"em",
+			" = ",
+			"March ",
+			"February ",
+			".href",
+			"getElementByI",
+			"textContent",
+			"'http://google.com'",
+			"1",
+			"http://google.com",
+			"twitter",
+			"')",
+			"textCon",
+			"console.log",
+			"auth",
+			"userSnapshot",
+			"memberInfo",
+			"umber",
+			"applicationsHTML ",
+			"applicationsHTML",
+			".email",
+			"cmaMe",
+			"{{",
+			"nonMember",
+			"console.",
+			"admin",
+			"/resources/",
+			"md-leadership-awards",
+			"toggleSig",
+			"refPath",
+			"snapshot",
+			"h3",
+			"hi.html",
+			"ce-1",
+			"letter-good-standing",
+			"curriculum-vitae",
+			"personal-statement",
+			"account",
+			"exist",
+			"h2",
+			"beforeSubmission",
+			"nonMember",
+			"right-col",
+			"right",
+			"/resources/",
+			"+ ",
+			"url",
+			"deleteFile (deletePath + snapshot.val().",
+			"return ",
+			"%2F",
+			"_",
+			"-",
+			"put",
+			"set",
+			"file.name;",
+			"<div class=\"review-text-field\">",
+			"submission",
+			"class=\"inputfile\"",
+			"reference-2",
+			"inputFile",
+			"curriculum-vitae",
+			"personal-statement",
+			"upper",
+			"file-1",
+			"type=\"file\"",
+			"file",
+			"$prim",
+			"cma_membership",
+			"span><id=",
+			"span><",
+			"class=\"submission-text-field\"",
+			"span class=\"submission-text-field\"",
+			"span id=",
+			"none",
+			"padding-top: 10px; padding-bottom: 10px",
+			"padding-top",
+			"font-size",
+			" ng-app=\"authApp\" ng-controller=\"AuthController\"",
+			".navbar-default ",
+			"nav-toggle",
+			"navbar",
+			"_",
+			"md_leadership_awards",
+			"_",
+			"md_leadership_awards",
+			"/resources/md-leadership-awards-prev",
+			"/resources/md-leadership-awards_",
+			"/resources/md-leadership",
+			"/resources/md",
+			"md_leadership_awards_",
+			"margin-left:0px;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "layout.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
