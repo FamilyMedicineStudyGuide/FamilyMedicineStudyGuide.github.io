@@ -1,0 +1,91 @@
+---
+title: "Family Medicine Study Guide &ndash; Giving Back"
+description: "Written by physicians, the Family Medicine Study Guide is a non-profit portable curriculum that includes 50 original case studies and over 250 questions to help motivate, guide and assist you in your studying."
+---
+
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+{% include head.html %}
+<body>
+	<div id="header" class="content">
+		{% include nav.html %}
+	</div>
+	<script type="text/javascript">
+		document.querySelector( "#giving-back" ).classList.toggle("active");
+	</script>
+	<div id="giving-back-header" class="content flex">
+		<div class="left-column">
+			<h1 class="editable">Giving Back</h1>
+			<p class="editable">
+				We believe that family physicians and allied health professionals strengthen our local communities and can have an impact on those internationally as well. We also have a responsibility to assist those less fortunate and in need. Therefore, the Family Medicine Study Guide was created as a non-profit project. 100% of the authors' revenue will be used to ensure the sustainability of the app and be donated to various charities around the world.
+			</p>
+		</div>
+		<div class="right-column">
+			<img class="feature-pic" title="Give back to communities" alt="giving back" src="images/features/feature4.svg" />
+		</div>
+	</div>
+	<div id="summary-title" class="content">
+		<h1 class="editable animate">What have we accomplished?</h1>
+	</div>
+	<div id="summary" class="content flex">
+		<div class="data-point animate">
+			<span id="amount-donated" class="number-large"></span>
+			<span id="desc-donated" class="number-desc">donated to charities</span>
+		</div>
+		<div class="data-point animate">
+			<span id="families-supported" class="number-large"></span>
+			<span id="desc-families-supported" class="number-desc">families supported</span>
+		</div>
+		<div class="data-point animate">
+			<span id="months-supported" class="number-large"></span>
+			<span id="months-supported-desc" class="number-desc">months of support provided</span>
+		</div>
+		<div class="data-point animate">
+			<span id="no-helped" class="number-large"></span>
+			<span id="no-helped-desc" class="number-desc">individuals helped</span>
+		</div>
+	</div>
+	<div id="supported-charities" class="content flex">
+		<div class="left-column">
+			<h1 class="editable animate">Our Charitable Partners</h1>
+			<p class="editable animate">
+				The Family Medicine Study Guide is proud to support <a href="http://www.safp.org/">Save a Family Plan</a> and <a href="https://www.elephantthoughts.com/">Elephant Thoughts</a> as our charitable partners. Click on the links below to learn more:
+			</p>
+		</div>
+	</div>
+	<div id="charities-list" class="content flex">
+		<div id="safp" class="charity animate">
+			<a href="http://www.safp.org/">
+				<img src="/images/safp-logo.jpg">
+			</a>
+		</div>
+		<div id="elephant-thoughts" class="charity animate">
+			<a href="https://www.elephantthoughts.com/">
+				<img src="/images/elephant-thoughts-logo.png">
+			</a>
+		</div>
+	</div>
+	{% include footer.html %}
+	<script src="/js/countUp.js"></script>
+	<script>
+		//Counts up the numbers
+		var options = {
+			useEasing : false,
+			prefix : ''
+		}
+		var options_money = {
+			  useEasing : false, 
+			  separator : ',', 
+			  prefix : '$'
+		};
+		var count_donated = new CountUp("amount-donated", 0, {{ site.data.values.amount_donated }}, 0, 1, options_money);
+		var count_families = new CountUp("families-supported", 0, {{ site.data.values.number_families_supported }}, 0, 1, options);
+		var count_months = new CountUp("months-supported", 0, {{ site.data.values.number_months_support }}, 0, 1, options);
+		var count_individuals = new CountUp("no-helped", 0, {{ site.data.values.number_individuals_helped }}, 0, 1, options);
+		count_donated.start();
+		count_families.start();
+		count_months.start();
+		count_individuals.start();
+	</script>
+</body>
