@@ -5,8 +5,14 @@ number_individuals_helped: 25
 show_msk_medicine: false
 show_new_msk_medicine: true
 title_msk_medicine: Title for new MSK Medicine Section
-text_msk_medicine: Placeholder text for description of new MSK Medicine section. Add a sentence or two here describing the feature. Make sure you update this before saving the site with this displayed.
-show_mini_podcasts: false
-show_new_mini_podcasts: true
-title_mini_podcasts: Title for Mini Podcasts Section
-text_mini_podcasts: Placeholder text for description of Mini Podcasts section. Add a sentence or two here describing the feature. Make sure you update this before saving the site with this displayed.
+text_msk_medicine: >-
+  Placeholder text for description of new MSK Medicine section. Add a sentence
+  or two here describing the feature. Make sure you update this before saving
+  the site with this displayed.
+show_mini_podcasts: true
+show_new_mini_podcasts: false
+title_mini_podcasts: Coming Soon...
+text_mini_podcasts: >-
+  "Learn on the Go" with the new Mini-Podcasts Section.  These short, concise
+  and clinically relevant podcasts will help improve your clinical skills and
+  review key topics that are required for everyday primary care practice.
