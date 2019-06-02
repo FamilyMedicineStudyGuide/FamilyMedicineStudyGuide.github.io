@@ -1,13 +1,5 @@
-**10,000** Downloads in over **100** Countries!
+**HERE WE GO AGAIN...**
 
-**10,000 $** Given to Charity!!
+Another Free Upgrade \!
 
-Thank You!
-
-Our portable curriculum continues to grow!
-
-Incredible work currently being done to update, add and improve the current **Family Medicine Study Guide**! A major shout out to all those who have and are contributing to this charitable educational project.
-
-More to come...
-
-Stay Tuned...
+5 New Cases... 35 New Questions... Mini-Exam Mode... Updated Guidelines & Links... Bug Fixes...
