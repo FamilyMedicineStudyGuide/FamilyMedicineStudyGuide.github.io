@@ -1,3 +1,0 @@
-**A DIRECT QUOTE FROM A FAMILY WE SUPPORT…**
-
-"Gratitude unlocks the fullness of life. &nbsp;It turns what we have into enough, and more. &nbsp;It turns denial into acceptance, chaos to order, confusion to clarity. &nbsp;It can turn a meal into a feast, a house into a home, a stranger into a friend." &nbsp;Words are powerless to express my gratitude to you because you saved my life from tough times. &nbsp;I owe you a whole lot more than just a thank you for helping me out\!&nbsp; Once again I thank you for accepting my family and your financial assistance.
