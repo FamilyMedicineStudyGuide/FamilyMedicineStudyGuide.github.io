@@ -1,3 +1,5 @@
-**A DIRECT QUOTE FROM A FAMILY WE SUPPORT…**
+The Alberta Health Services Knowledge Resource Service has featured the&nbsp;**Family Medicine Study Guide&nbsp;**as App of the Month\! &nbsp;Another excellent review\!
 
-"Gratitude unlocks the fullness of life. &nbsp;It turns what we have into enough, and more. &nbsp;It turns denial into acceptance, chaos to order, confusion to clarity. &nbsp;It can turn a meal into a feast, a house into a home, a stranger into a friend." &nbsp;Words are powerless to express my gratitude to you because you saved my life from tough times. &nbsp;I owe you a whole lot more than just a thank you for helping me out\! &nbsp;Once again I thank you for accepting my family and your financial assistance.
+Please see the following link for a complete review:
+
+[https://krs.libguides.com/mobile/familymedicinestudyguid](https://krs.libguides.com/mobile/familymedicinestudyguide){: target="_blank"}[e](https://krs.libguides.com/mobile/familymedicinestudyguide)
