@@ -3,7 +3,7 @@ number_families_supported: 28
 number_months_support: 996
 number_individuals_helped: 67
 show_msk_medicine: true
-show_new_msk_medicine: false
+show_new_msk_medicine: true
 title_msk_medicine: Crash Courses - Coming Soon
 text_msk_medicine: Currently under development.  Stay Tuned!
 show_mini_podcasts: true
