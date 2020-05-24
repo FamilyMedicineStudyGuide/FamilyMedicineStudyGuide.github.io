@@ -2,10 +2,10 @@ amount_donated: 29252
 number_families_supported: 35
 number_months_support: 1500
 number_individuals_helped: 100
-show_msk_medicine: false
-show_new_msk_medicine: false
+show_msk_medicine: true
+show_new_msk_medicine: true
 title_msk_medicine:
-text_msk_medicine: Coming Soon!  Stay Tuned!
+text_msk_medicine:
 show_mini_podcasts: true
 show_new_mini_podcasts: false
 title_mini_podcasts: Coming Soon!
