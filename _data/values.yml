@@ -5,11 +5,16 @@ number_individuals_helped: 100
 show_msk_medicine: true
 show_new_msk_medicine: true
 title_msk_medicine:
-text_msk_medicine:
+text_msk_medicine: >-
+  Crash a few Courses!  The new "Crash Course" section includes a choose your
+  own adventure style of learning.  Read a case, get asked questions, select
+  your answers, see explanations, view videos, review images and get points! 
+  This new learning module will allow you to experience clinical scenarios as
+  they unfold!  Enjoy the adventure...
 show_mini_podcasts: true
 show_new_mini_podcasts: false
 title_mini_podcasts: Coming Soon!
 text_mini_podcasts: >-
-  "Learn on the Go" with the new Mini-Podcasts Section.  These short, concise
-  and clinically relevant podcasts will help improve your clinical skills and
-  review key topics that are required for everyday primary care practice.
+  "Learn on the Go" with the Mini-Podcasts Section.  These short, concise and
+  clinically relevant podcasts will help improve your clinical skills and review
+  key topics that are required for everyday primary care practice.
