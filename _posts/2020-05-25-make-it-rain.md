@@ -1,4 +1,4 @@
-**2019 Results: **
+**2019 Results:**
 
 Another $10,000 Donated\!\!
 
@@ -6,6 +6,4 @@ Another $10,000 Donated\!\!
 
 A huge thank you\!
 
-This is only the beginning...
-
-&nbsp;
+This is only the beginning…
