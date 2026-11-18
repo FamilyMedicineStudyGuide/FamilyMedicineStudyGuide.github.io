@@ -1,20 +1,19 @@
 amount_donated: 135936
-number_families_supported: 102
+number_families_supported: 103
 number_months_support: 6036
-number_individuals_helped: 340
+number_individuals_helped: 353
 show_msk_medicine: true
 show_new_msk_medicine: false
 title_msk_medicine: '"Crash Courses" - Coming Soon'
-text_msk_medicine: >-
-  Crash a few Courses!  The new "Crash Course" section includes a choose your
-  own adventure style of learning.  Read a case, get asked questions, select
-  your answers, see explanations, view videos, review images and get points! 
-  This new learning module will allow you to experience clinical scenarios as
-  they unfold!  Enjoy the adventure...
+text_msk_medicine: Crash a few Courses!  The new "Crash Course" section includes
+  a choose your own adventure style of learning.  Read a case, get asked
+  questions, select your answers, see explanations, view videos, review images
+  and get points!  This new learning module will allow you to experience
+  clinical scenarios as they unfold!  Enjoy the adventure...
 show_mini_podcasts: true
 show_new_mini_podcasts: false
 title_mini_podcasts: Coming Soon!
-text_mini_podcasts: >-
-  "Learn on the Go" with the Mini-Podcasts Section.  These short, concise and
-  clinically relevant podcasts will help improve your clinical skills and review
-  key topics that are required for everyday primary care practice.
+text_mini_podcasts: '"Learn on the Go" with the Mini-Podcasts Section.  These
+  short, concise and clinically relevant podcasts will help improve your
+  clinical skills and review key topics that are required for everyday primary
+  care practice.'
